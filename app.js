@@ -1,26 +1,15 @@
-// Data Types
-// 1)Primitive Data Type
-// 2)Non-Primitive Data Type
+// Arithmetic Operators
 
-/* PRIMITIVE DATA TYPE */
+const a=10
+const b=5
+console.log(a+b)        // Addition
 
-let age=20;
-console.log(age)
-console.log(typeof age)
+console.log(a-b)        // Subtraction
 
-let Name="Shrihari"
-console.log(Name)
-console.log(typeof Name)
+console.log(a*b)        // Multiplication
 
-let brand
-console.log(brand)
+console.log(a/b)        // Division
 
+console.log(a**b)       // Exponentioal
 
-/* NON-PRIMITIVE DATA TYPE */
-
-let arr=[1,2,3,4,5]
-console.log(arr)
-
-arr.push("Value")
-console.log(arr)
-console.log(typeof arr)
+console.log(a%b)        // Modulus (Division Remainder)
