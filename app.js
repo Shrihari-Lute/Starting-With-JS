@@ -1,15 +1,11 @@
-// Arithmetic Operators
+// Assignment Operators
 
-const a=10
-const b=5
-console.log(a+b)        // Addition
+let y="Shrihari"
 
-console.log(a-b)        // Subtraction
+let x = 20
 
-console.log(a*b)        // Multiplication
-
-console.log(a/b)        // Division
-
-console.log(a**b)       // Exponentioal
-
-console.log(a%b)        // Modulus (Division Remainder)
+// x += y
+// x -= y
+// x *= y
+// x /= y
+// x %= y
