@@ -1,11 +1,28 @@
-// Assignment Operators
+// Comparison Operators
 
-let y="Shrihari"
+const a = 21
+const b = 7
+const c =21
 
-let x = 20
+console.log("a =",a)
 
-// x += y
-// x -= y
-// x *= y
-// x /= y
-// x %= y
+console.log("b =",b)
+
+console.log("c =",c)
+
+console.log("a > b",a>b)
+
+console.log("a < b",a<b)
+
+console.log("a == b",a==b)
+
+console.log("a == c",a==c)
+
+console.log("-----------------------------------------")
+
+
+const d = 23
+const e = '23'
+
+console.log("d == e",d==e)      // compare the value
+console.log("d === e",d===e)      // compare the type
