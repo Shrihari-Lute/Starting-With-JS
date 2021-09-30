@@ -1,20 +1,9 @@
-// Conditional Statement
+// const element = document.getElementById('selectme')
 
-const a = 0
+// const element= document.getElementsByClassName('heading')
 
-console.log(a)
+// const element= document.getElementsByTagName('h2')
 
-if(typeof a == 'number'){
-    if(a == 0){
-        console.log("Number is zero",)
-    }
-    else if(a % 2 == 0){
-        console.log("Number is even")
-    }
-    else{
-        console.log("Number is odd")
-    }    
-}
-else{
-    console.error("Not a number")
-}
+const element= document.querySelector('.heading')
+
+console.log(element)
